@@ -7,11 +7,10 @@ interface PaymentButtonProps {
 
 const PaymentButton = ({ price = "1.499₽", onClick }: PaymentButtonProps) => {
   const handleClick = () => {
-    // Здесь будет ссылка на Продамус
+    // Временная заглушка для демонстрации
+    alert("Функция оплаты в разработке. Скоро будет подключен Продамус!");
     if (onClick) {
       onClick();
-    } else {
-      console.log("Переход на платёжную форму Продамус");
     }
   };
 
