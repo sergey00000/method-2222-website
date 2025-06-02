@@ -7,8 +7,8 @@ interface PaymentButtonProps {
 
 const PaymentButton = ({ price = "1.499₽", onClick }: PaymentButtonProps) => {
   const handleClick = () => {
-    // Временная заглушка для демонстрации
-    alert("Функция оплаты в разработке. Скоро будет подключен Продамус!");
+    // Переход на форму оплаты Продамус
+    window.open("https://sergeizapuskaet.payform.ru/", "_blank");
     if (onClick) {
       onClick();
     }
