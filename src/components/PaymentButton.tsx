@@ -8,7 +8,7 @@ interface PaymentButtonProps {
 const PaymentButton = ({ price = "1.499₽", onClick }: PaymentButtonProps) => {
   const handleClick = () => {
     // Переход на форму оплаты Продамус
-    window.open("https://sergeizapuskaet.payform.ru/", "_blank");
+    window.open("https://payform.ru/4j7CXEX/", "_blank");
     if (onClick) {
       onClick();
     }
