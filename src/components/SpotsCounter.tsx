@@ -1,6 +1,6 @@
 const SpotsCounter = () => {
   const totalSpots = 30;
-  const takenSpots = 0;
+  const takenSpots = 1;
   const availableSpots = totalSpots - takenSpots;
 
   return (
