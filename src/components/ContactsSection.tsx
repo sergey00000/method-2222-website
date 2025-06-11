@@ -24,17 +24,17 @@ const ContactsSection = () => {
           <p className="text-lg md:text-xl leading-relaxed text-gray-300 font-montserrat mb-8">
             Это только начало. С системой ты вырастешь до{" "}
             <span className="text-orange-400 font-semibold">1000+</span> и
-            большего дохода. Подписывайся на{" "}
-            <a
-              href="https://t.me/sergeizapuskaet"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-yellow-400 hover:text-orange-400 transition-colors duration-300 font-semibold underline"
-            >
-              Telegram-канал
-            </a>
-            , пиши вопросы.
+            большего дохода. Подписывайся на канал, пиши вопросы.
           </p>
+
+          <a
+            href="https://t.me/sergeizapuskaet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white font-bold py-4 px-8 rounded-full text-lg md:text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          >
+            📱 Читать канал
+          </a>
         </div>
       </div>
     </section>

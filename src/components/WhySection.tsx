@@ -3,29 +3,28 @@ const WhySection = () => {
     <section className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold font-montserrat mb-12 text-center bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-          300 — Это Начало, а Не Предел
+          Почему 300 подписчиков — это реально?
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              С{" "}
+              Многие думают, что нужно иметь тысячи подписчиков, чтобы
+              зарабатывать. Это миф! С{" "}
               <span className="text-orange-400 font-semibold">
-                300 активных подписчиков
+                300 активных людей
               </span>{" "}
-              можно зарабатывать от
-              <span className="text-yellow-400 font-bold">
-                {" "}
-                100к до 1млн рублей
-              </span>{" "}
-              в месяц. Качество важнее количества.
+              ты можешь строить бизнес. Качество аудитории важнее количества —
+              300 заинтересованных принесут больше, чем 3000 пассивных.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              Мой кейс: с{" "}
-              <span className="text-orange-400">320 подписками</span> я сделал
-              первые
-              <span className="text-yellow-400 font-semibold"> 20к</span>, а
-              потом масштабировал. Секрет в фокусе на{" "}
+              Мой личный кейс: с{" "}
+              <span className="text-orange-400">320 подписчиками</span> я
+              запустил первый продукт и заработал{" "}
+              <span className="text-yellow-400 font-semibold">20к рублей</span>{" "}
+              за месяц. Потом добавил систему и масштабировал до{" "}
+              <span className="text-yellow-400 font-bold">100к</span>. Секрет
+              прост — фокус на{" "}
               <span className="text-orange-500 font-semibold">ценности</span>.
             </p>
           </div>

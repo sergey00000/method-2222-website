@@ -12,17 +12,23 @@ const IntroSection = () => {
 
         <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-3xl p-8 md:p-12 backdrop-blur-sm border border-orange-500/20">
           <p className="text-lg md:text-xl leading-relaxed text-gray-300 font-montserrat">
-            Привет! Сегодня я покажу, как превратить{" "}
+            Привет! Сегодня я раскрою, как превратить{" "}
             <span className="text-orange-400 font-semibold">
-              300 подписчиков
+              300 подписчиков в Telegram
             </span>{" "}
-            в Telegram в реальный заработок. Это бесплатная инфа для закрытого
-            чата. Мы разберём типичные боли новичков, раскроем секреты и
-            создадим стратегию. Готовы{" "}
+            в реальный заработок. Это бесплатная информация для закрытого чата,
+            где ты найдёшь ещё больше советов и поддержку. Даже с небольшой
+            аудиторией можно выйти на доход от{" "}
+            <span className="text-yellow-400 font-bold">
+              10к до 50к рублей в месяц
+            </span>
+            , если знать секреты, разобраться с типичными проблемами и выстроить
+            чёткий план. Готов{" "}
             <span className="text-yellow-400 font-semibold">
               ломать систему
-            </span>
-            ?<span className="text-orange-500 font-bold"> Погнали!</span>
+            </span>{" "}
+            и начать зарабатывать?{" "}
+            <span className="text-orange-500 font-bold">Погнали!</span>
           </p>
         </div>
       </div>
