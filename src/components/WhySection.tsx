@@ -17,7 +17,7 @@ const WhySection = () => {
               ты можешь строить бизнес. Качество аудитории важнее количества —
               300 заинтересованных принесут больше, чем 3000 пассивных.
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed mb-6">
               Мой личный кейс: с{" "}
               <span className="text-orange-400">320 подписчиками</span> я
               запустил первый продукт и заработал{" "}
@@ -26,6 +26,18 @@ const WhySection = () => {
               <span className="text-yellow-400 font-bold">100к</span>. Секрет
               прост — фокус на{" "}
               <span className="text-orange-500 font-semibold">ценности</span>.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed">
+              <span className="text-yellow-400 font-semibold">Доказано:</span>{" "}
+              если{" "}
+              <span className="text-orange-400">
+                10-20% твоих подписчиков активны
+              </span>{" "}
+              (30-60 человек), этого достаточно для первых продаж. Представь:
+              продаёшь гайд за 1000 рублей, и 30 человек покупают — это уже{" "}
+              <span className="text-yellow-400 font-bold">30к!</span> Главное —
+              не гнаться за цифрами, а работать с теми, кто с тобой. Начни с
+              малого, но с умом.
             </p>
           </div>
 
